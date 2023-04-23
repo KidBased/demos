@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "group": "Cats",
+      "name": "Cat furniture",
+      "id": 1,
+      "isParent": false,
+      "parentId": null
+    },
+    {
+      "group": "Cats",
+      "name": "Cat shows",
+      "id": 2,
+      "isParent": false,
+      "parentId": null
+    },
+    {
+      "group": "Dogs",
+      "name": "Adoption",
+      "id": 3,
+      "isParent": false,
+      "parentId": null
+    },
+    {
+      "group": "Dogs",
+      "name": "Grooming",
+      "id": 4,
+      "isParent": false,
+      "parentId": null
+    },
+    {
+      "group": "Dogs",
+      "name": "Breeds",
+      "id": 5,
+      "isParent": true,
+      "parentId": null
+    },
+    {
+      "group": "Dogs",
+      "name": "Terrier",
+      "id": 6,
+      "isParent": false,
+      "parentId": 5
+    },
+    {
+      "group": "Dogs",
+      "name": "Retriever",
+      "id": 7,
+      "isParent": false,
+      "parentId": 5
+    },
+    {
+      "group": "Dogs",
+      "name": "Training",
+      "id": 8,
+      "isParent": true,
+      "parentId": null
+    },
+    {
+      "group": "Dogs",
+      "name": "Agility training",
+      "id": 9,
+      "isParent": false,
+      "parentId": 8
+    },
+    {
+      "group": "Dogs",
+      "name": "Service dog training",
+      "id": 10,
+      "isParent": false,
+      "parentId": 8
+    }
+  ]
+}

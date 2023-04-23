@@ -1,0 +1,13 @@
+<input type="text" #search>
+
+<ul>
+  <li *ngFor="let group of this.tree.children; index as i">{{group.label}}
+    <ul>
+      <li *ngFor="let member of this.tree.children[i].children; index as j">{{member.label}}
+        <ul>
+          <li *ngFor="let child of this.tree.children[i].children[j].children">{{child.label}}</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
