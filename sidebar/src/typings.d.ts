@@ -5,7 +5,7 @@ interface INode {
 
 interface IData {
   group: string,
-  name: string,
+  label: string,
   id: number,
   isParent: boolean,
   parentId: number | null,

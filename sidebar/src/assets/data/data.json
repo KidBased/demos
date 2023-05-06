@@ -2,70 +2,70 @@
   "data": [
     {
       "group": "Cats",
-      "name": "Cat furniture",
+      "label": "Cat furniture",
       "id": 1,
       "isParent": false,
       "parentId": null
     },
     {
       "group": "Cats",
-      "name": "Cat shows",
+      "label": "Cat shows",
       "id": 2,
       "isParent": false,
       "parentId": null
     },
     {
       "group": "Dogs",
-      "name": "Adoption",
+      "label": "Adoption",
       "id": 3,
       "isParent": false,
       "parentId": null
     },
     {
       "group": "Dogs",
-      "name": "Grooming",
+      "label": "Grooming",
       "id": 4,
       "isParent": false,
       "parentId": null
     },
     {
       "group": "Dogs",
-      "name": "Breeds",
+      "label": "Breeds",
       "id": 5,
       "isParent": true,
       "parentId": null
     },
     {
       "group": "Dogs",
-      "name": "Terrier",
+      "label": "Terrier",
       "id": 6,
       "isParent": false,
       "parentId": 5
     },
     {
       "group": "Dogs",
-      "name": "Retriever",
+      "label": "Retriever",
       "id": 7,
       "isParent": false,
       "parentId": 5
     },
     {
       "group": "Dogs",
-      "name": "Training",
+      "label": "Training",
       "id": 8,
       "isParent": true,
       "parentId": null
     },
     {
       "group": "Dogs",
-      "name": "Agility training",
+      "label": "Agility training",
       "id": 9,
       "isParent": false,
       "parentId": 8
     },
     {
       "group": "Dogs",
-      "name": "Service dog training",
+      "label": "Service dog training",
       "id": 10,
       "isParent": false,
       "parentId": 8
